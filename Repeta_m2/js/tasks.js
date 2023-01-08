@@ -150,6 +150,3 @@ console.log(`Найменше число масиву:`, smallestNumber);
 console.log(` `);
 console.log(` `);
 
-/*
-
-*/
