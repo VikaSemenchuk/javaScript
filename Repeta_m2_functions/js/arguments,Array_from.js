@@ -74,11 +74,12 @@ const filterNumbers = function (array, ...args) {
   const filtredArray = [];
 
   for (const arg of args) {
+console.log(array.includes(arg));
 
     if (array.includes(arg)) {
       filtredArray.push(arg);
     }
-    
+
   }
 
   return filtredArray;
